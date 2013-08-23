@@ -11,7 +11,7 @@
     hey pr it's friday 23 august @ 10:56:46
     logins:0
 
-* hello.sh grettings
+* hello.sh greetings
 
 2013AUG21
 * hello.sh
