@@ -13,6 +13,10 @@
 
 * hello.sh greetings
 
+2017JUL22
+* added usb.sh
+- quick dirty manual report for Rpi configuring usb mounts
+
 2013AUG21
 * hello.sh
 - greeter when you log into bash
