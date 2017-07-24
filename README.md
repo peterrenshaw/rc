@@ -13,7 +13,7 @@
 
 * hello.sh greetings
 
-2017JUL22
+2017JUL24
 * added usb.sh
 - quick dirty manual report for Rpi configuring usb mounts
 
