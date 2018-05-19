@@ -12,6 +12,11 @@
     logins:0
 
 * hello.sh greetings
+2018MAY19
+* added ssh.sh
+- cause I'm lazy and I need to login to pi servers
+* validate-rsync.sh
+- as the name says. there are other login/logout scripts to add.
 
 2017JUL24
 * added usb.sh
