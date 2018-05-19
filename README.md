@@ -24,6 +24,7 @@ Note the ztasks not done (ignored) :(
 
 
 2018MAY19
+* updated ssh.sh 
 * added ssh.sh
 - cause I'm lazy and I need to login to pi servers
 * validate-rsync.sh
