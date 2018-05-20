@@ -22,6 +22,8 @@ Currently:
 
 Note the ztasks not done (ignored) :(
 
+2018MAY20 
+* added flsk.sh, helper script that runs flask app and virtualenv
 
 2018MAY19
 * updated ssh.sh 
