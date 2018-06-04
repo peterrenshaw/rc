@@ -22,6 +22,15 @@ Currently:
 
 Note the ztasks not done (ignored) :(
 
+2018JUN04
+* replaced flsk.sh with two specific scripts. one to install
+  flask, the other to run a flask application under virtual env
+  to reduce typing.
+* added flask_install.sh
+- call to install flask under virtual env with ssl bug work around
+* added flask_run.sh
+- call virtual env, then run flask application
+
 2018MAY20 
 * added flsk.sh, helper script that runs flask app and virtualenv
 
