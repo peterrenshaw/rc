@@ -1,3 +1,10 @@
+2019OCT22
+* .vimrc for elm 
+- running pathogen for elm syntax highlighting
+- see docs for details
+   <HOWOTO/HOWTO-install-elm-tools-with-vim.md>
+
+
 2019OCT14
 * added alias to .bash_profile to run venv
 
