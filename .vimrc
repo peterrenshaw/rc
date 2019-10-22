@@ -1,6 +1,7 @@
 "#---
 "# name: .vimrc
-"# date: 2013JUL26
+"# date: 2019OCT22
+"#       2013JUL26
 "# desc: vim startup script
 "#---
 
@@ -13,9 +14,20 @@
 
 :set history=100
 :set list                          " --- Activate display of invisibles by default
-:set listchars=tab:▸\ ,eol:¬
+"#:set listchars=tab:▸\ ,eol:¬
 :set noexpandtab
 :set nowrap
 :set preserveindent
 :set ruler                         " Display a statusbar including the cursor position
 :set scrolloff=2
+
+" # messing with my linebreaks
+:set wrap       " word wrap visually
+:set linebreak  " only wrap at char in breakat option
+:set nolist     " disable line break
+:set textwidth=0
+:set wrapmargin=0
+
+" 2019OCT22 elm - pathogen
+execute pathogen#infect()
+filetype plugin indent on
