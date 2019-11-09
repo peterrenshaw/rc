@@ -1,3 +1,7 @@
+2019NOV09
+* added .vimrc update for vim-plug and vim-elm
+-vim, elm and plugin integration
+
 2019OCT22
 * .vimrc for elm 
 - running pathogen for elm syntax highlighting

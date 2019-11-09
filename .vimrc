@@ -1,7 +1,6 @@
 "#---
 "# name: .vimrc
-"# date: 2019OCT22
-"#       2013JUL26
+"# date: 2013JUL26
 "# desc: vim startup script
 "#---
 
@@ -29,5 +28,18 @@
 :set wrapmargin=0
 
 " 2019OCT22 elm - pathogen
-execute pathogen#infect()
-filetype plugin indent on
+" execute pathogen#infect()
+" filetype plugin indent on
+
+" 2019NOV09 elm - vim-plug
+"   plugins downloaded into this dir
+call plug#begin('~/.vim/plugged')
+" list of plugins
+" Plug 'elmcast/elm-vim'
+Plug 'Zaptic/elm-vim'
+Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-commentary'
+call plug#end()
+
+
+
