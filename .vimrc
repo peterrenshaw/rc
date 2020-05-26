@@ -28,15 +28,18 @@
 :set textwidth=0
 :set wrapmargin=0
 
+
+" 2020MAY26
+"   without plugins this barfs, comment out
 " 2019NOV09 elm - vim-plug
 "   plugins downloaded into this dir
-call plug#begin('~/.vim/plugged')
+"call plug#begin('~/.vim/plugged')
 " list of plugins
 " Plug 'elmcast/elm-vim'
-Plug 'Zaptic/elm-vim'
-Plug 'tpope/vim-sleuth'
-Plug 'tpope/vim-commentary'
-call plug#end()
+"Plug 'Zaptic/elm-vim'
+"Plug 'tpope/vim-sleuth'
+"Plug 'tpope/vim-commentary'
+"call plug#end()
 
 
 
